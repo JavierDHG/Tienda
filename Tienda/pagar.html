@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Tienda</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+    <center>
+    	<h1>Pagar</h1>
+    	<form method="post" action="PagoValidad.php">
+    	<table>
+    		
+                <tr>
+                    <td></td>
+                    <td>Pago</td>
+                </tr>
+                        <td>Nombre Tarjeta de credito</td>
+                        <td><input type="text" name="NombreT" placeholder="Nombre" minlength="8" maxlength="42"/></td>                
+                </tr>
+                <tr>
+                    <td>Numero de tarjeta</td>
+                    <td><input type="text" name="NumT" placeholder="Numero de 8 o mas digitos" minlength="8" maxlength="20"/></td>
+                </tr>
+                <tr>
+                	
+                    <td>Contraseña tarjeta</td>
+                    <td><input type="password" name="contra" id="ContraT" placeholder="Clave" maxlength="4"></td>
+                </tr>
+                <tr>
+                    <td>Fecha vencimiento</td>
+                    <td><input type="text" name="mes" placeholder="Mes" />
+                    <input type="text" name="año" placeholder="Año" /></td>
+                </tr>                 
+                <tr>                   
+                    <td></td>
+                    <td><input type="submit" value="Pagar"/></td>     
+                </tr>               
+        </table>
+        </form>
+    </center> 
+    </body>
+</html>
