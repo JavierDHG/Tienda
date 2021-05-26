@@ -26,12 +26,12 @@ $nr = mysqli_num_rows($query);
 
 if($nr == 1)
 {
-	header("Location: ObjetosVENTA.php");
-	//echo "Bienvenido:" .$nombre;
+header("Location: ObjetosVENTA.php");
+//echo "Bienvenido:" .$nombre;
 }
 else if ($nr == 0) 
 {
-	header("Location: LoginU.html");
-	//echo "No ingreso"; 
+header("Location: LoginU.html");
+//echo "No ingreso"; 
 }
 ?>
